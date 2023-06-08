@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: TestLoginN11
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 86.807 s <<< FAILURE! - in TestLoginN11
+TestLoginN11  Time elapsed: 86.807 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+Timed out waiting for driver server to start.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SAFA', ip: '192.168.2.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: driver.version: ChromeDriver
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:34912/status] to be available after 20004 ms
+Caused by: java.util.concurrent.TimeoutException
+
