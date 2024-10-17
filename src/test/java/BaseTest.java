@@ -14,16 +14,16 @@ public class BaseTest {
 
   @BeforeAll
   public void setUp() {
-    WebDriverManager.chromedriver().setup(); // Setup ChromeDriver
-    driver = new ChromeDriver(); // Initialize the ChromeDriver
-    driver.get("https://www.n11.com/"); // Open the website
-    driver.manage().window().maximize(); // Maximize the browser window
+    WebDriverManager.chromedriver().setup(); 
+    driver = new ChromeDriver();
+    driver.get("https://www.n11.com/");
+    driver.manage().window().maximize(); 
   }
 
-  @AfterAll // Ensure the teardown method is uncommented and properly defined
+  @AfterAll 
   public void tearDown() {
     if (driver != null) {
-      driver.quit(); // Close the browser and cleanup
+      driver.quit(); 
     }
   }
 }
